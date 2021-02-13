@@ -10,6 +10,6 @@ import (
 func main(){
 	fmt.Println("go mod")
 	//stystruct.ConvertStruct2JsonStr()
-	stymethod.CircleArea1()
+	stymethod.Print()
 	//fmt.Println(math.Pow(2,2.0))
 }
