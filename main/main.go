@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	_ "math"
+	"stystruct/styabstractmethod"
 	"stystruct/styfactory"
 	"stystruct/stymethod"
 	_ "stystruct/stystruct"
@@ -29,5 +30,8 @@ func main() {
 	fmt.Println(student)
 	fmt.Println(student.Name)
 	fmt.Println(student.Age)
-
+	student.SetScore(12)
+	fmt.Println(student.GetScore())
+	fmt.Println("账户操作---------------")
+	styabstractmethod.OperateAccount()
 }
