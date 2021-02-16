@@ -10,7 +10,6 @@ type Account struct {
 
 
 func OperateAccount(){
-
 	var account = Account{"11111111","666666",100,}
 	account.Deposit(100,"666666")
 	account.Query("666666")

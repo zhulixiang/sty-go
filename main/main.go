@@ -4,7 +4,10 @@ import (
 	"fmt"
 	_ "math"
 	"stystruct/styabstractmethod"
+	"stystruct/styextends"
+	"stystruct/styextends01"
 	"stystruct/styfactory"
+	"stystruct/styinterface"
 	"stystruct/stymethod"
 	_ "stystruct/stystruct"
 )
@@ -34,4 +37,12 @@ func main() {
 	fmt.Println(student.GetScore())
 	fmt.Println("账户操作---------------")
 	styabstractmethod.OperateAccount()
+
+	styextends.Demo1()
+
+	styextends01.Demo()
+
+	styinterface.UseInterface()
+
+	styinterface.UseHero()
 }
